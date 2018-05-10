@@ -1,0 +1,115 @@
+.members-list
+    ul
+        flex-flow row wrap
+        padding 0
+        // margin 0
+    .column
+        padding 0 1rem 2rem
+        margin 0
+        min-width 250px
+.card
+    border-radius 4px
+    box-shadow: 0 2px 36px 0 rgba(198, 198, 198, 0.5)
+    overflow hidden
+    position relative
+    figure
+        margin 0
+        padding-bottom 120px
+    img
+        border-radius 4px
+        filter: grayscale(100%);
+        transitions(.2s)
+    .ifhover
+        overflow hidden
+        height 0
+        p
+            transition-duration 0.5s
+            font-size 14px
+            color transparent
+    &:hover
+        .member-jobtitle
+            margin-bottom 10px
+        box-shadow 0 2px 36px 0 rgba(198, 198, 198, 0.75)
+        .ifhover
+            height 80px
+            p
+                color #9c9c9c
+        img
+            filter grayscale(0)
+            transitions(.2s)
+        article
+            padding-bottom 40px
+            &:before
+                transition-duration 0.35s
+                height 40px
+                top -18px
+                transform skewY(-8deg) translateZ(0)
+                will-change top, transform
+
+    article
+        position: absolute;
+        background: #FFF;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top 26px
+        padding-bottom 30px
+        &:before
+            content ''
+            height 22px
+            will-change top, transform
+            top -11px
+            transform skewY(-4deg) translateZ(0)
+            // clip-path polygon(102% 102%, 102% 0, 0 102%);
+            background #FFF;
+            position absolute
+            width 100%
+.member-name
+    font-size 20px;
+    text-transform uppercase
+    text-align center
+    font-family font_family_secundary
+    color #464646
+    font-weight 700
+    letter-spacing 0
+    line-height 1.8
+    margin 0
+p
+    font-size 15px
+    color #686868
+    text-align center
+    margin 0
+    &.member-jobtitle
+        margin-bottom 18px
+
+.social-item
+    list-style none
+    float left
+    &:not(:last-child)
+        margin-right 10px
+    a
+        background-color transparent
+        background-size 80%
+        background-repeat no-repeat
+        background-position center
+        display block
+        width 26px
+        height 26px
+        overflow hidden
+        text-indent -99999rem
+        transition 0.05s all ease-out
+        &:hover
+            background-size 85%
+        &.linkedin
+            background-image url('/images/linkedin-logo.svg')
+        &.facebook
+            background-image url('/images/facebook-logo.svg')
+        &.instagram
+            background-image url('/images/instagram-logo.svg')
+        &.behance
+            background-image url('/images/behance-logo.svg')
+        &.dribbble
+            background-image url('/images/dribbble-logo.svg')
+ul.social-icons
+    display table
+    margin 0 auto 10px

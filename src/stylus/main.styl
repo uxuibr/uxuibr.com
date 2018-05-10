@@ -1,0 +1,45 @@
+main.container
+    transform translateY(-95px)
+    min-height 600px
+.members-navigation
+    margin-bottom 50px
+    ul
+        margin 0
+        padding 0
+        list-style none
+        width 330px
+        display flex
+        justify-content space-between
+    li
+        display inline-flex
+    svg
+        display block
+        margin auto
+        overflow visible
+    .actived
+        border-color: color_pink
+        span
+            color color_pink
+        g
+            opacity 1
+        .ifactived
+            fill color_pink
+    button
+        background-color transparent
+        cursor pointer
+        outline none
+        box-shadow none
+        border 1px solid #e2e2e2
+        border-radius 4px
+        height: 96px;
+        width 98px;
+        padding-top: 14px;
+        &:hover:not(.actived)
+            background-color #f9f9f9
+            outline none
+    span
+        color color_gray_dark
+        font-size 0.75rem
+        text-align center
+        text-transform uppercase
+        line-height 3

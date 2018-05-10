@@ -1,0 +1,6 @@
+node_modules/
+.vscode
+.DS_STORE
+www/*.html
+www/styles.min.css
+www/application.js

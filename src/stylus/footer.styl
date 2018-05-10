@@ -1,0 +1,54 @@
+footer
+    overflow hidden
+    aside
+        display initial
+        float right
+        transform translateY(-150%)
+    .shape-context
+        .aasb-with-shadow
+            filter: drop-shadow(0 0 52px rgba(201, 201, 201, .25));
+        padding-bottom 160px
+        &::before
+            display none
+        .aas
+            height 160px
+            // clip-path polygon(100% 100%, 0 100%, 0 0);
+            transform translateY(98%) skewY(7deg)
+            background linear-gradient(-251deg, #EC2C91 1%, #FBAA24 100%);
+        .aasb
+            height 160px
+            // clip-path polygon(100% 100%, 100% 0, 0 100%);
+            transform translateY(80%) skewY(-7deg)
+    a
+        text-transform uppercase
+        font-family font_family_secundary
+        color #393939
+        letter-spacing 1px
+        font-size 14px
+        text-decoration none
+        font-weight 700
+        padding 6px 12px
+        border-radius 4px
+        &::before
+            content ''
+            display inline-block
+            width 6px
+            height 6px
+            background linear-gradient(71deg, #fbaa24, #ec2c91)
+            border-radius 100%
+            vertical-align text-top
+            margin-top 5px
+            margin-right 10px;
+        &:hover
+            color color_orange
+.count-members
+    display inline-block
+    margin-left 40px
+    align-self: flex-end
+    svg
+        vertical-align sub
+    span
+        font-size: 14px;
+        font-weight: bold;
+        color: #817dec;
+        margin-left: 10px;

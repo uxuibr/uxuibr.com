@@ -1,0 +1,69 @@
+// Functions.styl.
+
+// define uma transição.
+transitions(time = .5s, itens = all, easing = ease-out)
+	transition itens time easing;
+
+box(w = 100%)
+	width w
+	float left
+	clear both
+	position relative
+
+centerPerfect()
+	position absolute
+	top 50%
+	left 50%
+	transform translate(-50%, -50%)
+	
+justifyLine()
+	text-align justify
+	font-size 0
+	&:after
+		content ''
+		width 100%
+		display inline-block
+		pointer-event none
+
+
+placeholderColor(placeholdercolor, maincolor)
+	color maincolor
+	&::-webkit-input-placeholder
+		color placeholdercolor
+	&:-moz-placeholder
+		color placeholdercolor
+		opacity 1
+	&::-moz-placeholder
+		color placeholdercolor
+		opacity 1
+	&:-ms-input-placeholder
+		color placeholdercolor
+
+showActiveHover(time = .2s)
+	visibility hidden
+	opacity 0
+	transitions(time)
+	&:hover
+		opacity 1
+		visibility visible
+		transitions(time)
+showActive(time = .2s)
+	visibility hidden
+	opacity 0
+	transitions(time)
+	&.active
+		opacity 1
+		visibility visible
+		transitions(time)
+// fillArea - preenche a área da div
+filler()
+	position absolute
+	top 0
+	left 0
+	width 100%
+	height 100%
+
+bgCover()
+	background-repeat no-repeat
+	background-position center center
+	background-size cover

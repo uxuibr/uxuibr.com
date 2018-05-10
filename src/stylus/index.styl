@@ -1,0 +1,48 @@
+@import "normalize.css"
+@import 'functions'
+font_family_primary = 'Roboto', Roboto, Arial, sans-serif
+font_family_secundary = 'Roboto Condensed', RobotoCondensed, Arial, sans-serif
+color_orange = #f47057
+color_pink = #ec2c91
+color_pink_light = #FBE9F2
+color_yellow = #fbaa24
+color_gray = #c6c6c6
+color_gray_secundary = #818181
+color_gray_dark = #BCBCBC
+color_black = #464646
+color_black_secundary = #686868
+
+@import 'components/typography'
+@import 'components/grid'
+
+*
+*::after
+*::before
+    box-sizing inherit
+    transition 0.25s all cubic-bezier(0.4,-0.1, 0, 1.1)
+html
+    box-sizing border-box
+body
+    font-family font_family_primary
+    font-weight 400
+    font-size 1em
+    line-height 1.6
+    letter-spacing 0.5px
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
+img
+	max-width: 100%
+
+@import 'helpers'
+@import 'header'
+@import 'footer'
+@import 'main'
+@import 'card'
+@import 'about'
+@import 'mobile'
+
+// ::-webkit-scrollbar
+//     display none
+
+.condensed--text
+    font-family font_family_secundary

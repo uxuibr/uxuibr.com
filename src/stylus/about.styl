@@ -1,0 +1,196 @@
+.modal
+    // &:target
+    //     .modal--wrapper
+    //         transform translateY(0)
+    //         opacity 1
+    //         transition transform 0.35s ease-out
+    .modal--wrapper
+        // opacity 0
+        // transform translateY(100%)
+        position fixed
+        z-index 999999
+        top 0
+        background #FFF
+        height 100%
+        width 100%
+        padding 80px 0 0 0
+        overflow-y scroll
+        // ::-webkit-scrollbar
+        //     display none
+    h1
+        background linear-gradient(70deg, #FBAA24 0%, #EC2C91 100%)
+        -webkit-background-clip text
+        -webkit-text-fill-color transparent
+        font-weight bold
+        font-family font_family_secundary
+        display table
+        margin 0 auto 30px
+        font-size 52px
+    .longtext
+        max-width 720px
+        display inherit
+        margin auto
+        color #414141
+        line-height 2
+    .modal--close
+        display block
+        right 60px
+        text-decoration none
+        position absolute
+        color #d8d8d8
+        cursor pointer
+        &:hover
+            color #9d9d9d
+        &::before
+            content ''
+            display inline-block
+            height 42px
+            width 1px
+            background #9d9d9d
+            transform rotate(45deg) translateX(0px) translateY(-20px)
+        &::after
+            content ''
+            display inline-block
+            height 42px
+            width 1px
+            background #9d9d9d
+            transform rotate(-45deg) translateX(-2px) translateY(-20px)
+    .sponsors
+        margin-top 60px
+.sponsors
+    .brands
+        display table
+        margin 25px auto 0
+        padding 0
+        li
+            list-style none
+            float left
+            &:not(:last-child)
+                margin-right 25px
+        a
+            display inline-block
+            overflow hidden;
+            text-indent -999999999rem
+            width 140px
+            height 40px
+            background-position center
+            background-repeat no-repeat
+            filter grayscale(1)
+            transitions(.3s)
+            &:hover
+                filter grayscale(0)
+                transitions(.3s)
+            &.uxnow
+                background-image: url('/images/logo-uxnow-hover.svg');
+               
+            &.uilab
+                background-image: url('/images/logo-uilab-hover.svg');
+               
+            &.gilberto
+                background-image: url('/images/logo-gil-hover.svg');
+                width 86px
+               
+            &.uxlab
+                background-image: url('/images/logo-uxlab-hover.svg');
+                width 110px
+               
+            &.uikits
+                background-image: url('/images/logo-uikits-hover.svg');
+                width 134px
+               
+            &.applanntech
+                background-image: url('/images/logo-applann-technology-hover.svg');
+                background-size: 100% auto;
+                width 140px
+               
+            // &.uxnow
+            //     background-image: url('/images/logo-uxnow.svg');
+            //     &:hover
+            //         background-image: url('/images/logo-uxnow-hover.svg')
+            // &.uilab
+            //     background-image: url('/images/logo-uilab.svg');
+            //     &:hover
+            //         background-image: url('/images/logo-uilab-hover.svg')
+            // &.gilberto
+            //     background-image: url('/images/logo-gil.svg');
+            //     width 86px
+            //     &:hover
+            //         background-image url('/images/logo-gil-hover.svg')
+            // &.uxlab
+            //     background-image: url('/images/logo-uxlab.svg');
+            //     width 110px
+            //     &:hover
+            //         background-image: url('/images/logo-uxlab-hover.svg')
+            // &.uikits
+            //     background-image: url('/images/logo-uikits.svg');
+            //     width 134px
+            //     &:hover
+            //         background-image: url('/images/logo-uikits-hover.svg')
+            // &.applanntech
+            //     background-image: url('/images/logo-applann-technology.svg');
+            //     background-size: 100% auto;
+            //     width 140px
+            //     &:hover
+            //         background-image: url('/images/logo-applann-technology-hover.svg')
+.slack-preview
+    display inherit
+    margin 80px auto 0
+.copyright
+    z-index 1
+    position absolute
+    left 0
+    right 0
+    color #FFF
+    bottom 30px
+    a
+        text-decoration none
+        color #FFF
+        &:hover
+            color #eaeaea
+    &::before
+        content ''
+        display block
+        height 120px
+        // clip-path polygon(0 100%, 100% 100%, 100% 40%, 0% 0%);
+        background linear-gradient(-251deg, #EC2C91 1%, #FBAA24 100%);
+        position absolute
+        bottom 0
+        z-index -1
+        left -30px
+        right -30px
+        height 180px
+        transform translateY(62%) skewY(3deg)
+.preview
+    height 590px
+    overflow hidden
+    width 100%
+    margin-bottom 0
+    .aasb
+        content ''
+        display block
+        height 120px
+        // clip-path polygon(0 100%,100% 100%,100% 0,0 70%);
+        background #FFF
+        position absolute
+        bottom 0
+        z-index -1
+        left -30px
+        right -30px
+        transform translateY(30%) skewY(-6deg)
+        box-shadow 10px 0 50px rgba(0,0,0,0.05)
+     .aasb-with-shadow
+        filter: drop-shadow(0 0 52px rgba(201, 201, 201, .2));
+    position relative
+.return2home
+    position absolute
+    top 30px
+    left 30px
+    background-image url('/images/back.svg')
+    background-repeat no-repeat
+    width 59px
+    height 59px
+    display block
+    overflow hidden
+    text-indent -9999999rem
+    &:hover
+        background-image url('/images/back-hover.svg')

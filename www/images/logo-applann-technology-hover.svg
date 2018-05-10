@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="173px" height="50px" viewBox="0 0 173 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-purple</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-purple" transform="translate(0.000000, -10.000000)" fill="#543E6D">
+            <g id="Group" transform="translate(0.000000, 10.000000)">
+                <rect id="Rectangle" transform="translate(6.402578, 19.113300) rotate(25.000000) translate(-6.402578, -19.113300) " x="3.94004823" y="9.26108374" width="4.92506028" height="19.7044335" rx="2.46253014"></rect>
+                <path d="M9.50289366,18.2130245 L13.5337039,26.8571249 C14.1068872,28.0863206 15.5621662,28.6208459 16.8033544,28.0420703 C18.0359491,27.467302 18.5696008,26.0029552 17.9973244,24.7757045 L11.7455514,11.3687342 C11.1723681,10.1395386 9.71708913,9.60501326 8.47590095,10.1837888 C7.86219881,10.4699628 7.42176392,10.9766623 7.20482941,11.5648248 L5.39805124,15.4408242 L5.70313802,15.1012221 C6.55502187,14.1529624 7.68008052,14.3188191 8.2208607,15.4820712 L9.49896954,18.2313635 L9.50289366,18.2130245 Z" id="Combined-Shape"></path>
+                <rect id="Rectangle-2" x="7.0428362" y="34.4827586" width="4.92506028" height="15.5172414" rx="2.46253014"></rect>
+                <path d="M8.6278976,39.408867 L9.50536635,39.408867 C20.3855091,39.408867 29.2056075,30.5868916 29.2056075,19.7044335 C29.2056075,8.82197537 20.3855091,0 9.50536635,0 C8.1453485,0 7.0428362,1.10274692 7.0428362,2.46305419 C7.0428362,3.82336145 8.1453485,4.92610837 9.50536635,4.92610837 C17.6654734,4.92610837 24.2805472,11.5425899 24.2805472,19.7044335 C24.2805472,27.8662771 17.6654734,34.4827586 9.50536635,34.4827586 C8.1453485,34.4827586 7.0428362,35.5855055 7.0428362,36.9458128 L7.0428362,38.8679397 L7.03862181,41.6303143 L7.33556473,40.5561931 C7.5106958,39.9226976 8.18574162,39.408867 8.84322594,39.408867 L8.31291498,38.5451143 L7.0428362,38.8679397 L8.6278976,39.408867 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+            </g>
+            <g id="Group-2" transform="translate(40.000000, 0.000000)">
+                <text id="applann" font-family="OpenSans-Semibold, Open Sans" font-size="36" font-weight="500" letter-spacing="-1.20000005">
+                    <tspan x="0.0347659588" y="38">applann</tspan>
+                </text>
+                <text id="technology" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="-0.300000012">
+                    <tspan x="56.0646876" y="55">technolog</tspan>
+                    <tspan x="124.71625" y="55" letter-spacing="-0.0600000024">y</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

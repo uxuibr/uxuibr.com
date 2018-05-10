@@ -1,0 +1,29 @@
+doctype html
+html(lang="pt-BR")
+head
+    include _partials/head
+body
+    section#about.modal.about
+        .modal--overlay
+        .modal--wrapper
+            a(href="/").return2home voltar
+            //- a.modal--close(href="#") ESQ
+            h1.l-text-center SOBRE O GRUPO
+            p.l-text-center.longtext UXUI-BR foi criado no início de 2017 para aproximar pessoas criativas com interesses em comum. Compartilhamos desde assuntos relacionados à interface e experiência do usuário até playlists no Spotify que nos ajudam durante a criação. Criamos, codificamos e fazemos as coisas acontecerem. Juntos compartilhamos nossos conhecimentos, fazendo cada membro crescer e ser capaz de propor cenários e produtos mais eficazes às necessidades dos usuários do mundo inteiro.
+            .sponsors
+                p.l-text-center: b Apoio:
+                ul.brands
+                    li: a(href="http://uxnow.com.br", target="_blank").uxnow uxnow
+                    li: a(href="http://uilab.com.br", target="_blank").uilab uilab
+                    li: a(href="https://www.facebook.com/gilbertopradodesigner", target="_blank").gilberto gilberto
+                    li: a(href="http://www.uxlab.cc", target="_blank").uxlab uxlab
+                    li: a(href="https://applann.com.br", target="_blank").applanntech Applann Technology
+                    li: a(href="https://uikits.com.br", target="_blank").uikits uikits
+            .preview
+                .aasb-with-shadow
+                    .aasb
+                    img(src="/images/slack-preview.png").slack-preview
+                p.copyright Crédito pelo Code: 
+                    a(href="https://www.instagram.com/lazaro.alvarenga/", target="_blank"): b Lázaro Alvarenga
+    script(src="./application.js")
+    script (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-98721587-1', 'auto');ga('send', 'pageview');
